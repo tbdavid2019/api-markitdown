@@ -10,6 +10,10 @@ pinned: false
 short_description: 微軟markitdown / markdonw 功能
 ---
 
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
+-------
 # 將 MarkItDown 變身為 API：超級進化！
 
 想讓 MarkItDown 更加靈活？把它部署成 API 吧！這樣你就可以在 Zapier、n8n 等自動化流程中輕鬆使用它，也可以直接用 UI 上傳檔案轉 Markdown。
