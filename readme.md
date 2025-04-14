@@ -13,7 +13,7 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 
 ⸻
@@ -22,22 +22,23 @@ pip install -r requirements.txt
 
 啟動 FastAPI API（背景服務）
 
+```
 bash uvicorn_start.sh
-
+```
 ➡ 這會啟動在 http://localhost:8000，提供 /convert 上傳介面。
 
 ⸻
 
 啟動 Gradio UI（上傳介面）
-
+```
 bash gradio_start.sh
-
+```
 ➡ 開啟 http://127.0.0.1:7860，左側上傳檔案，右側會顯示 Markdown 結果。
 
 ⸻
 
 📤 API 使用範例（JavaScript）
-
+```
 const formData = new FormData();
 formData.append('file', file);
 
@@ -45,7 +46,7 @@ const response = await fetch('http://localhost:8000/convert', {
   method: 'POST',
   body: formData,
 });
-
+```
 
 
 ⸻
@@ -61,9 +62,9 @@ Two modes in this project:
 ⸻
 
 🔧 Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 
 ⸻
@@ -79,15 +80,15 @@ bash uvicorn_start.sh
 ⸻
 
 Run Gradio frontend (UI)
-
+```
 bash gradio_start.sh
-
+```
 ➡ This opens http://127.0.0.1:7860 with an interactive file upload interface.
 
 ⸻
 
 📤 API Example (JavaScript)
-
+```
 const formData = new FormData();
 formData.append('file', file);
 
@@ -95,3 +96,4 @@ const response = await fetch('http://localhost:8000/convert', {
   method: 'POST',
   body: formData,
 });
+```
