@@ -1,2 +1,49 @@
+# 虛擬環境
 myenv/
 .gradio/
+venv/
+env/
+ENV/
+
+# 臨時文件
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 環境變量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日誌
+*.log
+app/__pycache__/main.cpython-311.pyc
